@@ -1,0 +1,77 @@
+//nothing entered (Who has what skills?)
+SELECT emp.first_name, emp.last_name, tr.emp_num, tr.skill
+	FROM emp INNER JOIN tr
+		ON emp.emp_num = tr.emp_num
+	ORDER BY tr.skill, tr.emp_num
+
+//emp num entered, nothing else (What can this employee do?)
+SELECT emp.first_name, emp.last_name, tr.skill
+	FROM emp INNER JOIN tr
+		ON emp.emp_num = tr.emp_num
+	WHERE tr.emp_num = $emp_num
+	ORDER BY tr.skill
+	
+//skill entered, nothing else(Who is trained in this skill?)
+SELECT emp.first_name, emp.last_name, tr.emp_num
+	FROM emp INNER JOIN tr
+		ON emp.emp_num = tr.emp_num
+	WHERE tr.skill = $skill
+	ORDER BY tr.emp_num
+
+//dept entered, nothing else(Who has skills can be used in this department?)
+SELECT emp.first_name, emp.last_name, tr.skill
+	FROM emp INNER JOIN tr
+		ON emp.emp_num = tr.emp_num
+	WHERE tr.skill = ANY
+		SELECT skill
+			FROM dept
+			WHERE dept_name = $dept
+			ORDER BY skill)
+	ORDER BY tr.skill, tr.emp_num
+		
+//emp, skill entered(Is this employee trained in this skill?)
+SELECT emp.first_name, emp.last_name
+	FROM emp INNER JOIN tr
+		ON emp.emp_num = tr.emp_num
+	WHERE tr.emp_num = $emp 
+		AND tr.skill = $skill
+		
+//emp, dept entered(Does this employee have skills that can be used in this department?)
+SELECT emp.first_name, emp.last_name, tr.skill
+	FROM emp INNER JOIN tr
+		ON emp.emp_num = tr.emp_num
+	WHERE tr.skill = ANY(
+		SELECT skill
+			FROM dept
+			WHERE dept_name = $dept
+			ORDER BY skill) AND
+		tr.emp_num = $emp
+	ORDER BY tr.skill
+		
+//skill, dept entered (Who with this skill can work in this department)?	
+SELECT emp.first_name, emp.last_name, tr.emp_num,
+	FROM
+		INNER JOIN emp
+			ON emp.emp_num = tr.emp_num
+	WHERE skill = (
+		SELECT skill
+			FROM dept 
+			WHERE dept_name = $dept
+				AND skill = $skill
+		)
+	ORDER BY tr.emp_num
+//all 3 categories are entered 
+
+SELECT emp.first_name, emp.last_name, tr.emp_num,
+	FROM
+		INNER JOIN emp
+			ON emp.emp_num = tr.emp_num
+	WHERE skill = (
+		SELECT skill
+			FROM dept 
+			WHERE dept_name = $dept
+				AND skill = $skill
+		)
+		AND tr.emp_num = $emp
+		
+	 

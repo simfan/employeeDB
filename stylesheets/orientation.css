@@ -1,0 +1,75 @@
+input[type="text"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+li
+{
+	position: relative;
+	top: 10px;
+}
+
+.bold
+{
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.category
+{
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+.subcategory
+{
+	position: relative;
+	left: 10px;
+}
+.terms
+{
+	position: relative;
+}
+
+.col1
+{
+	position: relative;
+	left: 0px;
+}
+
+.col2
+{
+	position: absolute;
+	left: 200px;
+	top: 0px;
+}
+	
+.normal
+{
+	position: relative;
+	left: 10px;
+	top: 0px;
+	font-weight: normal;
+	font-size: 12pt;
+}
+
+.section
+{
+	position: relative;
+	left: 5px;
+	top: 5px;
+}
+
+.underText
+{
+	position: relative;
+	top: 5px;
+	left: 20px;
+}
+#dates
+{
+	position: absolute;
+	left: 400px;
+	top: 0px;
+}

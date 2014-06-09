@@ -1,0 +1,99 @@
+.employeeInfo
+{
+	top: 0px;
+	left: 0px;
+	height: 150px;
+	position: absolute;
+	font-size: 14pt;
+}
+.col
+{
+	position: absolute;
+	top: 50px;
+}
+
+#col1
+{
+	left: 50px;
+}
+#col2
+{
+	left: 500px;
+}
+
+.trainingInfo
+{
+	/*top: 400px;*/
+	top: 20px;
+	left: 0px;
+	position: relative;
+}
+
+.heading, .record
+{
+	left: 20px;
+	position: relative;
+}
+
+.heading
+{
+	top: 80px;
+	width: 800px;
+	font-size: 14pt;
+}
+
+.record
+{
+	top: 130px;
+	width: 800px;
+	font-size: 12pt;
+}
+
+.field0
+{
+	top: 0px;
+	left: 0px;
+	width: 1px;
+	position: relative;
+}
+
+.field1, .field2, .field3, .field4, .field5
+{
+	position: absolute;
+	top: 20px;
+}
+
+.field1
+{
+	left: 10px;
+	width: 300px;
+}
+
+.field2
+{
+	left: 300px;
+	width: 150px;
+}
+
+.field3
+{
+	left: 450px;
+	width: 125px;	
+}
+
+.field4
+{
+	left: 575px;
+	width: 125px;
+}
+
+.field5
+{
+	left: 700px;
+	width: 100px;
+}
+
+.red
+{
+	color: red;
+}
