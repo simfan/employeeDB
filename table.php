@@ -68,6 +68,13 @@
 	$emp_query .= $emp_conditions;
 	$emp_results = pg_query($conn, $emp_query) or die("Error in Emp query. " . pg_last_error($conn));
 	$num_emps = pg_num_rows($emp_results);
+?>
+<html>
+<head>
+	<link rel = "stylesheet" type = "text/css" href = "stylesheets/table.css" />
+</head>
+<body>
+<?php
 	for($i = 0; $i < $num_emps; $i++)
 	{
 		$emp_info = pg_fetch_array($emp_results);
@@ -121,3 +128,6 @@
 		}
 		return array($query_order, $query_sort);
 	}
+?>
+</body>
+</html>

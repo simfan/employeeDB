@@ -1,0 +1,25 @@
+.main
+{
+	position: relative;
+	left: 5px;
+	font-size: 14pt;
+}
+
+.sub
+{
+	position: relative;
+	left: 20px;
+	font-size: 12pt;
+}
+
+a:link, a:active, a:visited
+{
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: blue;
+	text-decoration: underline;
+}
