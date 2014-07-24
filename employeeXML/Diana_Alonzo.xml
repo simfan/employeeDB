@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Diana</FirstName>
+			<LastName>Alonzo</LastName>
+		</Name>
+		<Number>1662</Number>
+		<Department>Assembly</Department>
+		<SDate>04/12/10</SDate>
+		<Skills>
+			<Skill>
+				<Title>FP-122-6/REV.1</Title>
+				<Type>O</Type>
+				<Presented>RANDY PELAN</Presented>
+				<CDate>09/17/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

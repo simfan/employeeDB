@@ -34,6 +34,7 @@
 	$skills_query = "SELECT skill, department FROM skills ORDER BY skill";
 	$skills_result = pg_query($conn, $skills_query) or die("Error in skills query. " . pg_last_error($conn));
 	$skills_count = pg_num_rows($skills_result);
+	print "# of skills: $skills_count";
 	//generate columns for matrix
 	$emp_query = "SELECT first_name, last_name, emp_num FROM employee_records WHERE plant = '" . $plant_name . "' ORDER BY last_name, first_name, emp_num";
 	$emp_result = pg_query($conn, $emp_query) or die("Error in employee query. " . pg_last_error($conn));
@@ -54,7 +55,7 @@
 <body>
 	<h2>Training Matrix</h2>
 	<table>
-		<tr><td>&nbsp</td>
+		<tr><th>&nbsp</th>
 		<?php
 		for($i = 0; $i < $emp_count; $i++)
 		{
@@ -92,11 +93,13 @@
 					$date_completed = $emp_info['date_completed'];
 					list($year, $month, $day) = explode("-", $date_completed);
 					$date_completed = "$month-$day-$year";
-					$class_name = "field" . $j1;
-					//determine placement of record within the row, starting at the last location
+					//$class_name = "field" . $j1;
+					//determine placement of record within the row, starting at the last location1
 					for($k = $l; $k < $emp_count; $k++)
 					{
-						print "<td class = '" . $class_name . "' onmouseover = \"highlightCells(this, '" . $row_name . "')\" onmouseout = \"whiteCells(this, '" . $row_name . "')\">";
+						$z = $k + 1;
+						$class_name = "field" . $z;
+						print "<td class = '" . $class_name . "' onmouseover = \"highlightCells(this, '" . $row_name . "');\" onmouseout = \"whiteCells(this, '" . $row_name . "');\">";
 						
 						if($employee_num[$k] == $emp_num)
 						{
@@ -105,14 +108,15 @@
 							break;
 						}
 						else
-							print "&nbsp</td>";
+							print "&nbsp;</td>";
 					}
 				}
+				
 				while($l < $emp_count)
 				{
 					$l1 = $l + 1;
 					$class_name = "field" . $l1;
-					print "<td class = '" . $class_name . "' onmouseover = \"highlightCells(this, '" . $row_name . "' )\" onmouseout = \"whiteCells(this, '" . $row_name . "')\">&nbsp</td>";
+					print "<td class = '" . $class_name . "' onmouseover = \"highlightCells(this, '" . $row_name . "');\" onmouseout = \"whiteCells(this, '" . $row_name . "');\">&nbsp</td>";
 					$l++;
 				}
 				print "</tr>";

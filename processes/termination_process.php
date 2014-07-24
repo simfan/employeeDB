@@ -55,7 +55,7 @@
 				break;
 		
 			case($row_count > 1):
-				return "Multiple employees exists with that name.  Please choose the correct employee.";
+				return "Multiple employees exist with that name.  Please choose the correct employee.";
 				break;
 		}
 	}

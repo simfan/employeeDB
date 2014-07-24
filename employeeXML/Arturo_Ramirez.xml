@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>ARTURO</FirstName>
+			<LastName>RAMIREZ</LastName>
+		</Name>
+		<Number>1898</Number>
+		<Department>CUTTING</Department>
+		<SDate>02/12/14</SDate>
+		<Skills>
+			<Skill>
+				<Title>NEW EMPLOYEE ORIENTATION CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>DORIS HENDERSON</Presented>
+				<CDate>02/19/14</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

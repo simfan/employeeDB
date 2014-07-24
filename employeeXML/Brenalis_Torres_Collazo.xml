@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Brendalis</FirstName>
+			<LastName>Torres Collazo</LastName>
+		</Name>
+		<Number>1700</Number>
+		<Department>Assembly</Department>
+		<SDate>03/08/11</SDate>
+		<Skills>
+			<Skill>
+				<Title>FP122-6/REV.1</Title>
+				<Type>O</Type>
+				<Presented>NANCY KOVAR</Presented>
+				<CDate>09/17/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

@@ -1,0 +1,41 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Cecelia</FirstName>
+			<LastName>Whitney</LastName>
+		</Name>
+		<Number>1807</Number>
+		<Department>Splicing</Department>
+		<SDate>11/06/12</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>11/09/12</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP122-4/REV.1</Title>
+				<Type>O</Type>
+				<Presented>CODY PROTHMAN</Presented>
+				<CDate>07/02/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>ASSEMBLY TRAINING CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>LUIS AVALOS</Presented>
+				<CDate>01/29/14</CDate>
+				<Verified>DH</Verified>
+			</Skill>	
+			<Skill>
+				<Title>CLIP/SOLDER/SLEEVE TRAINING CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>01/29/14</Presented>
+				<CDate></CDate>
+				<Verified>DH</Verified>
+			</Skill>								
+		</Skills>
+	</Employee>
+</Record>			

@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Dagmara</FirstName>
+			<LastName>Dorta Diaz</LastName>
+		</Name>
+		<Number>1794</Number>
+		<Department>Splicing</Department>
+		<SDate>01/14/14</SDate>
+		<Skills>
+			<Skill>
+				<Title>NEW EMPLOYEE ORIENTATION CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>DORIS HENDERSON</Presented>
+				<CDate>01/17/14</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

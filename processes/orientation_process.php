@@ -31,7 +31,10 @@
 	$search_count = pg_num_rows($search_result);
 	if($search_count > 0)
 	{
-		header("Location: ../index.php");
+		if($_POST['submit'] == 'Submit')
+			header("Location: ../index.php");
+		else
+			header("Location: ../orientation.html");
 	}
 	else
 	{

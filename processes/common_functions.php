@@ -50,19 +50,19 @@
 				break;
 				
 			case('K'):
-				$to = "";
+				$to = "karenk@fargopa.com";
 				break;
 				
 			case('N'):
-				$to = "";
+				$to = "lorrraine@fargopa.com";
 				break;
 				
 			case('R'):
-				$to = "";
+				$to = "lindab@fargopa.com";
 				break;
 				
 			case('T'):
-				$to = "";
+				$to = "brenda.santiago@fargopa.com";
 				break;
 			
 		}

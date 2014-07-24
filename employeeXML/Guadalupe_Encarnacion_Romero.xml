@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>GUADALUPE</FirstName>
+			<LastName>ENCARNACION ROMERO</LastName>
+		</Name>
+		<Number>1913</Number>
+		<Department></Department>
+		<SDate>04/14/14</SDate>
+		<Skills>
+			<Skill>
+				<Title>NEW EMPLOYEE ORIENTATION CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>DORIS HENDERSON</Presented>
+				<CDate>04/29/14</CDate>
+				<Verified>BH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

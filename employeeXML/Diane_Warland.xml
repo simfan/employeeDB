@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Diane</FirstName>
+			<LastName>Warland</LastName>
+		</Name>
+		<Number>0780</Number>
+		<Department>Cutting</Department>
+		<SDate>02/01/10</SDate>
+		<Skills>
+			<Skill>
+				<Title>CLEAN INK JETS, DOMINO, ALPHA JET 2,ALPHA</Title>
+				<Type>O</Type>
+				<Presented>TIM ADAMY</Presented>
+				<CDate>11/15/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

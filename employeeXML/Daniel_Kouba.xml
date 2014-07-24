@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Daniel</FirstName>
+			<LastName>Kouba</LastName>
+		</Name>
+		<Number>1225</Number>
+		<Department>Maintenance</Department>
+		<SDate>09/03/13</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>10/15/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

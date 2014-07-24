@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Aimee</FirstName>
+			<LastName>Scribner</LastName>
+		</Name>
+		<Number>1321</Number>
+		<Department>Termination</Department>
+		<SDate>08/27/13</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>09/27/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

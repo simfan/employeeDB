@@ -1,0 +1,27 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>JESSICA</FirstName>
+			<LastName>BARBOSA COLON</LastName>
+		</Name>
+		<Number>1874</Number>
+		<Department>SPLICE DEPT</Department>
+		<SDate>12/04/13</SDate>
+		<Skills>
+			<Skill>
+				<Title>NEW EMPLOYEE ORIENTATION CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>DORIS HENDERSON</Presented>
+				<CDate>12/06/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>CLIP SPLICE/SOLDER/SLEEVE TRAINING CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>JAIME PUENTE</Presented>
+				<CDate>02/03/14</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

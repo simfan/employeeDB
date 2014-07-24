@@ -46,7 +46,7 @@
 			Date Completed:&nbsp;<input type = "text" name = "dateCompleted" id = "dateCompleted" size = 10 maxlength = 10 />
 		</div>
 		<div class = "section">
-			<input type = "submit" name = "submit" id = "submit" value = "Submit" />
+			<input type = "submit" name = "submit" id = "submit" value = "Submit" />&nbsp<input type = "submit" name = "submit" id = "more" value = "Submit and Repeat" />
 		</div>
 	</form>
 </body>

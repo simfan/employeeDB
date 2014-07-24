@@ -14,8 +14,9 @@
 			<div>Initial Dept<input type = "text" name = "initDept" id = "initDept" /></div>
 		</div>
 		<div id = "employeeCheckbox">
-			<div name = "welcome" id = "welcome" class = "section"><span class = "category" id = "aText"><input type = "checkbox" name = "A" id = "A" value = "A" onclick = "fieldChecked('A', 'welcome', 'welcomeCount', 1)" /> Welcome to Fargo Assembly</span><input type = "hidden" name = "welcomeCount" id = "welcomeCount" value = "0" /></div>
+			<div name = "welcome" id = "welcome" class = "section"><span class = "category" id = "aText"><!--<input type = "checkbox" name = "A" id = "A" value = "A" onclick = "fieldChecked('A', 'welcome', 'welcomeCount', 1)" /> -->Welcome to Fargo Assembly</span><input type = "hidden" name = "welcomeCount" id = "welcomeCount" value = "0" /></div>
 			<div name = "forms" id = "forms" class = "section"><span class = "category">Completion of forms to include:</span>
+				<!--<ul class = "normal">
 				<div id = "b1Text" class = "subcategory"><input type = "checkbox" name = "B1" id = "B1" value = "B1" onclick = "fieldChecked('B1', 'forms', 'formsCount', 7)" /> 1-9 form (within three days of hire)</div>
 				<div id = "b2Text" class = "subcategory"><input type = "checkbox" name = "B2" id = "B2" value = "B2" onclick = "fieldChecked('B2', 'forms', 'formsCount', 7)" /> Confidentiality Agreement, if appropriate</div>
 				<div id = "b3Text" class = "subcategory"><input type = "checkbox" name = "B3" id = "B3" value = "B3" onclick = "fieldChecked('B3', 'forms', 'formsCount', 7)" />Emergency Contact form</div>
@@ -23,10 +24,20 @@
 				<div id = "b5Text" class = "subcategory"><input type = "checkbox" name = "B5" id = "B5" value = "B5" onclick = "fieldChecked('B5', 'forms', 'formsCount', 7)" />Social Security Verification form</div>
 				<div id = "b6Text" class = "subcategory"><input type = "checkbox" name = "B6" id = "B6" value = "B6" onclick = "fieldChecked('B6', 'forms', 'formsCount', 7)" />Workers Comp Rights and Responsibilites form (PA plants only)</div>
 				<div id = "b7Text" class = "subcategory"><input type = "checkbox" name = "B7" id = "B7" value = "B7" onclick = "fieldChecked('B7', 'forms', 'formsCount', 7)" />FMLA Rights and Responsibilities form</div>
-				<input type = "hidden" name = "formsCount" id = "formsCount" value = "0" />
+				</ul>
+				<input type = "hidden" name = "formsCount" id = "formsCount" value = "0" />-->
+				<ul class = "normal">
+				<li>1-9 form (within three days of hire)</li>
+				<li>Confidentiality Agreement, if appropriate</li>
+				<li>Emergency Contact form</li>
+				<li>W-4 form, Locat tax form</li>
+				<li>Social Security Verification form</li>
+				<li>Workers Comp Rights and Responsibilites form (PA plants only)</li>
+				<li>FMLA Rights and Responsibilities form</li>
+				</ul>				
 			</div>
 			<div name = "handbook" id = "handbook" class = "section"><span class = "category">Review of Employee Handbook to include</span>
-				<div id = "c1Text" class = "subcategory"><input type = "checkbox" name = "C1" id = "C1" value = "C1" onclick = "fieldChecked('C1', 'handbook', 'handbookCount', 13)"/> Workers' Compensation: responsibility of employee and employer</div>
+				<!--<div id = "c1Text" class = "subcategory"><input type = "checkbox" name = "C1" id = "C1" value = "C1" onclick = "fieldChecked('C1', 'handbook', 'handbookCount', 13)"/> Workers' Compensation: responsibility of employee and employer</div>
 				<div id = "c2Text" class = "subcategory"><input type = "checkbox" name = "C2" id = "C2" value = "C2" onclick = "fieldChecked('C2', 'handbook', 'handbookCount', 13)"/>Compensation, including salary, pay periods, and methods of payment</div>
 				<div id = "c3Text" class = "subcategory"><input type = "checkbox" name = "C3" id = "C3" value = "C3" onclick = "fieldChecked('C3', 'handbook', 'handbookCount', 13)"/>Work hours, overtime policies, use of time clock</div>
 				<div id = "c4Text" class = "subcategory"><input type = "checkbox" name = "C4" id = "C4" value = "C4" onclick = "fieldChecked('C4', 'handbook', 'handbookCount', 13)"/>Taxes and other payroll deductions</div>
@@ -39,26 +50,57 @@
 				<div id = "c11Text" class = "subcategory"><input type = "checkbox" name = "C11" id = "C11" value = "C11" onclick = "fieldChecked('C11', 'handbook', 'handbookCount', 13)"/>Computer, e-mail, and cell phone usage policies</div>
 				<div id = "c12Text" class = "subcategory"><input type = "checkbox" name = "C12" id = "C12" value = "C12" onclick = "fieldChecked('C12', 'handbook', 'handbookCount', 13)"/>Employee parking</div>
 				<div id = "c13Text" class = "subcategory"><input type = "checkbox" name = "C13" id = "C13" value = "C13" onclick = "fieldChecked('C13', 'handbook', 'handbookCount', 13)"/>Benefits</div>
-				<input type = "hidden" name = "handbookCount" id = "handbookCount" value = "0" />
+				<input type = "hidden" name = "handbookCount" id = "handbookCount" value = "0" />-->
+				<ul class = "normal">
+				<li> Workers' Compensation: responsibility of employee and employer</li>
+				<li>Compensation, including salary, pay periods, and methods of payment</li>
+				<li>Work hours, overtime policies, use of time clock</li>
+				<li>Taxes and other payroll deductions</li>
+				<li>All insurance benefits and options explained</li>
+				<li>Performance appraisal program</li>
+				<li>What to do in the event of an accident</li>
+				<li>Inform employee to report al accidents immediately to the supervisor</li>
+				<li>Location of doctor/clinic/hospital - address and phone number</li>
+				<li>Acceptable dress code policy</li>
+				<li>Computer, e-mail, and cell phone usage policies</li>
+				<li>Employee parking</li>
+				<li>Benefits</li>
+				</ul>
 			</div>
-			<div name = "video" id = "video" class = "section"><span id = "dText" class = "category"><input type = "checkbox" name = "D" id = "D" value = "D" onclick = "fieldChecked('D', 'video', 'videoCount', 1)"/>View Orientation Video</span><input type = "hidden" name = "videoCount" id = "videoCount" value = "0" /></div>
+			<div name = "video" id = "video" class = "section"><span id = "dText" class = "category"><!--<input type = "checkbox" name = "D" id = "D" value = "D" onclick = "fieldChecked('D', 'video', 'videoCount', 1)"/>-->View Orientation Video</span><input type = "hidden" name = "videoCount" id = "videoCount" value = "0" /></div>
 			<div name = "job" id = "job" class = "section"><span class = "category">Review of Job</span>
-				<div id = "e1Text" class = "subcategory"><input type = "checkbox" name = "E1" id = "E1" value = "E1" onclick = "fieldChecked('E1', 'job', 'jobCount', 6)"/>Review job functions, responsibilites, and quality policy</div>
+				<!--<div id = "e1Text" class = "subcategory"><input type = "checkbox" name = "E1" id = "E1" value = "E1" onclick = "fieldChecked('E1', 'job', 'jobCount', 6)"/>Review job functions, responsibilites, and quality policy</div>
 				<div id = "e2Text" class = "subcategory"><input type = "checkbox" name = "E2" id = "E2" value = "E2" onclick = "fieldChecked('E2', 'job', 'jobCount', 6)"/>Review interdepartmental relationships, i.e.</div>
 				<div id = "e3Text" class = "subcategory"><input type = "checkbox" name = "E3" id = "E3" value = "E3" onclick = "fieldChecked('E3', 'job', 'jobCount', 6)"/>How work originates</div>
 				<div id = "e4Text" class = "subcategory"><input type = "checkbox" name = "E4" id = "E4" value = "E4" onclick = "fieldChecked('E4', 'job', 'jobCount', 6)"/>Where it goes</div>
 				<div id = "e5Text" class = "subcategory"><input type = "checkbox" name = "E5" id = "E5" value = "E5" onclick = "fieldChecked('E5', 'job', 'jobCount', 6)"/>Relation of new employee's job to other jobs, both in and out of the department</div>
 				<div id = "e6Text" class = "subcategory"><input type = "checkbox" name = "E6" id = "E6" value = "E6" onclick = "fieldChecked('E6', 'job', 'jobCount', 6)"/>Review all safety rules specific to the department</div>
-				<input type = "hidden" name = "jobCount" id = "jobCount" value = "0" />
+				<input type = "hidden" name = "jobCount" id = "jobCount" value = "0" />-->
+				<ul class = "normal">
+				<li>Review job functions, responsibilites, and quality policy</li>
+				<li>Review interdepartmental relationships, i.e.</li>
+				<li>How work originates</li>
+				<li>Where it goes</li>
+				<li>Relation of new employee's job to other jobs, both in and out of the department</li>
+				<li>Review all safety rules specific to the department</li>
+				</ul>
 			</div>
 			<div name = "safety" id = "safety" class = "section"><span class = "category">Explain our company's total commitment to safety; nothing more important than safety:</span>
-				<div id = "f1Text" class = "subcategory"><input type = "checkbox" name = "F1" id = "F1" value = "F1" onclick = "fieldChecked('F1', 'safety', 'safetyCount', 6)"/>Tour of department and facilities; discuss any hazards</div>
+				<!--<div id = "f1Text" class = "subcategory"><input type = "checkbox" name = "F1" id = "F1" value = "F1" onclick = "fieldChecked('F1', 'safety', 'safetyCount', 6)"/>Tour of department and facilities; discuss any hazards</div>
 				<div id = "f2Text" class = "subcategory"><input type = "checkbox" name = "F2" id = "F2" value = "F2" onclick = "fieldChecked('F2', 'safety', 'safetyCount', 6)"/>Personal protective equipment issued or required (eye protection, dust mask, etc.)</div>
 				<div id = "f3Text" class = "subcategory"><input type = "checkbox" name = "F3" id = "F3" value = "F3" onclick = "fieldChecked('F3', 'safety', 'safetyCount', 6)"/>Review employee safety manualus, <span class = "bold">Lock Out/Tag Out</span></div>
 				<div id = "f4Text" class = "subcategory"><input type = "checkbox" name = "F4" id = "F4" value = "F4" onclick = "fieldChecked('F4', 'safety', 'safetyCount', 6)"/>Fire safety/emergency evacuation/emergency planning</div>
 				<div id = "f5Text" class = "subcategory"><input type = "checkbox" name = "F5" id = "F5" value = "F5" onclick = "fieldChecked('F5', 'safety', 'safetyCount', 6)"/>Location of MSDS(Material Safety Data Sheet)</div>
 				<div id = "f6Text" class = "subcategory"><input type = "checkbox" name = "F6" id = "F6" value = "F6" onclick = "fieldChecked('F6', 'safety', 'safetyCount', 6)"/>I have been given the opportunity to ask quuestions about OSHA's Hazard Communication Stand and to have questions answered. I have read and understood the above statement, and received the booklet explaining the same <span class = "bold">"RIGHT TO KNOW"</span></div>
-				<input type = "hidden" name = "safetyCount" id = "safetyCount" value = "0" />
+				<input type = "hidden" name = "safetyCount" id = "safetyCount" value = "0" />-->
+				<ul class = "normal">
+				<li>Tour of department and facilities; discuss any hazards</li>
+				<li>Personal protective equipment issued or required (eye protection, dust mask, etc.)</li>
+				<li><span class = "bold">Lock Out/Tag Out</span></li>
+				<li>Fire safety/emergency evacuation/emergency planning</li>
+				<li>Location of MSDS(Material Safety Data Sheet)</li>
+				<li>I have been given the opportunity to ask quuestions about OSHA's Hazard Communication Stand and to have questions answered. I have read and understood the above statement, and received the booklet explaining the same <span class = "bold">"RIGHT TO KNOW"</span></li>
+				</ul>
 			</div>
 		</div>
 		<div class = "section">
@@ -73,7 +115,7 @@
 				<div>Date:&nbsp;<input type = "text" name = "hrDate" id = "hrDate" size = 10 maxlength = 10 /></div>
 			</div>
 		</div>
-		<div><input type = "submit" name = "submit" id = "submit" value = "Submit" disabled = "disabled"/></div>
+		<div><input type = "submit" name = "submit" id = "submit" value = "Submit"/> <input type = "submit" name = "submit" id = "more" value = "Submit and Repeat" /><!--disabled = "disabled"--></div>
 	</form>
 </body>
 </html>

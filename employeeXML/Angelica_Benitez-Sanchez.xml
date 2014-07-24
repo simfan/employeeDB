@@ -1,0 +1,41 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Angelica</FirstName>
+			<LastName>Benitez-Sanchez</LastName>
+		</Name>
+		<Number>1824</Number>
+		<Department>Splicing</Department>
+		<SDate>01/15/13</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>01/29/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP-122.6/REV.1</Title>
+				<Type>O</Type>
+				<Presented>AWILMARIEL ORTEGA</Presented>
+				<CDate>10/16/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>HARNESS ASSEMBLY</Title>
+				<Type>S</Type>
+				<Presented>AWILMARIEL ORTEGA</Presented>
+				<CDate>10/01/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>			
+			<Skill>
+				<Title>ASSEMBLY TRAINING CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>CODY PROTHMAN</Presented>
+				<CDate>12/23/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>			
+		</Skills>
+	</Employee>
+</Record>			

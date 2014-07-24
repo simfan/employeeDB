@@ -1,0 +1,34 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Daniel</FirstName>
+			<LastName>Nickolite</LastName>
+		</Name>
+		<Number>1782</Number>
+		<Department>Braiding</Department>
+		<SDate>08/22/12</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>09/11/12</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP122-7/REV.1</Title>
+				<Type>O</Type>
+				<Presented>NANCY KOVAR</Presented>
+				<CDate>09/17/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP122-4/REV.1</Title>
+				<Type>O</Type>
+				<Presented>NANCY UECKERT</Presented>
+				<CDate>07/01/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

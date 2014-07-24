@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>GREG</FirstName>
+			<LastName>CECH</LastName>
+		</Name>
+		<Number>1795</Number>
+		<Department>TERMINATION</Department>
+		<SDate>12/30/13</SDate>
+		<Skills>
+			<Skill>
+				<Title>NEW EMPLOYE ORIENTATION CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>DORIS HENDERSON</Presented>
+				<CDate>01/07/14</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

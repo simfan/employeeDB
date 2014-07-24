@@ -1,0 +1,27 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Ana</FirstName>
+			<LastName>Batz Lux</LastName>
+		</Name>
+		<Number>1865</Number>
+		<Department>Assembly</Department>
+		<SDate>10-15-13</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>10-30-13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP-122/REV1-6</Title>
+				<Type>O</Type>
+				<Presented>RANDY PELAN</Presented>
+				<CDate>10/30/13</CDate>
+				<Verified>DC</Verified>
+		</Skills>
+	</Employee>
+</Record>			
+

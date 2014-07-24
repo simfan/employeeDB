@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Cindy</FirstName>
+			<LastName>Delgado Rojas</LastName>
+		</Name>
+		<Number>1816</Number>
+		<Department>Assembly</Department>
+		<SDate>11/12/12</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>11/16/12</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

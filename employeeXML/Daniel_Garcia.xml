@@ -1,0 +1,41 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Daniel</FirstName>
+			<LastName>Garcia</LastName>
+		</Name>
+		<Number>1861</Number>
+		<Department>Braiding</Department>
+		<SDate>10/15/13</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>10/18/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>MOLDING TRAINING CHECKLIST</Title>
+				<Type>O</Type>
+				<Presented>MIKE BETZEN</Presented>
+				<CDate>11/15/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>BRAIDING TRAINING CHECKLIST	</Title>
+				<Type>O</Type>
+				<Presented>MIKE BETZEN</Presented>
+				<CDate>11/15/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP-122-5-7</Title>
+				<Type>Q</Type>
+				<Presented>MIKE BETZEN</Presented>
+				<CDate>11/15/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>									
+		</Skills>
+	</Employee>
+</Record>			

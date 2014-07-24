@@ -1,0 +1,20 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName></FirstName>
+			<LastName></LastName>
+		</Name>
+		<Number></Number>
+		<Department></Department>
+		<SDate></SDate>
+		<Skills>
+			<Skill
+				<Title></Title>
+				<Type></Type>
+				<Presented></Presented>
+				<CDate></CDate>
+				<Verified></Verified>
+			</Skill>
+		</Skills>
+	</Employee>
+</Record>			

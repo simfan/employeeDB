@@ -19,10 +19,13 @@
 	$emp_name = $employee['first_name'] . " " . $employee['last_name'];
 	$plant = $employee['plant'];
 	$start_date = $orientation['start_date'];
+	$start_date = str_replace("/", "-", $start_date);
+	list($year, $month, $day) = explode("-", $start_date);
+	$start_date = "$month-$day-$year";
 	$init_dept = $orientation['initial_department'];
 
-	$training_query = "SELECT tr.skill AS skill, s.skill_type AS skill_type, s.other_type AS other_type, tr.presented_by AS presented_by, tr.date_completed AS date_completed, tr.verified_by AS verified_by FROM employee_training_record AS tr, skills AS s WHERE tr.skill = s.skill AND tr.employee_number = '" . $emp_num . "' ORDER BY tr.date_completed";
-	
+	//$training_query = "SELECT tr.skill AS skill, s.skill_type AS skill_type, s.other_type AS other_type, tr.presented_by AS presented_by, tr.date_completed AS date_completed, tr.verified_by AS verified_by FROM employee_training_record AS tr, skills AS s WHERE tr.skill = s.skill AND tr.employee_number = '" . $emp_num . "' ORDER BY tr.date_completed";
+	$training_query = "SELECT skill, presented_by, date_completed, verified_by FROM employee_training_record WHERE employee_number = '" . $emp_num . "' ORDER BY date_completed";
 	$training_results = pg_query($conn, $training_query) or die("Error in training query. " . pg_last_error($conn));
 	$skill_count = pg_num_rows($training_results);
 	
@@ -58,9 +61,9 @@
 			{
 				$training_info = pg_fetch_array($training_results);
 				$skill = $training_info['skill'];
-				$skill_type = $training_info['skill_type'];
-				if($skill_type == 'O')//or 'Other'
-					$skill_type .= " - " . $training_info['other_type'];
+				//$skill_type = $training_info['skill_type'];
+				//if($skill_type == 'O')//or 'Other'
+				//	$skill_type .= " - " . $training_info['other_type'];
 
 				$presented = $training_info['presented_by'];
 				$date_completed = $training_info['date_completed'];
@@ -76,7 +79,8 @@
 		<div class = "<?php print $row_class?>">
 			<!--<div class = "field0">&nbsp;</div>-->
 			<div class = "field1"><?php print $skill; ?></div><br/>
-			<div class = "field2"><?php print $skill_type; ?></div>
+			<!--<div class = "field2"><?php print $skill_type; ?></div>-->
+			<div class = "field2">&nbsp;</div>
 			<div class = "field3"><?php print $presented; ?></div>
 			<div class = "field4"><?php print $date_completed; ?></div>
 			<div class = "field5"><?php print $verified; ?></div>

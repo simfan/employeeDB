@@ -1,0 +1,62 @@
+<Record>
+	<Employee>
+		<Name>
+			<FirstName>Daniel</FirstName>
+			<LastName>Tresler</LastName>
+		</Name>
+		<Number>1838</Number>
+		<Department>Cutting</Department>
+		<SDate>07/15/13</SDate>
+		<Skills>
+			<Skill>
+				<Title>New Employee Orientation</Title>
+				<Type>O</Type>
+				<Presented>Doris Henderson</Presented>
+				<CDate>07/18/13</CDate>
+				<Verified>DH</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP122 A Rev 12</Title>
+				<Type>O</Type>
+				<Presented>Luis Avalos</Presented>
+				<CDate>09/30/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP122.2 Rev 1</Title>
+				<Type>O</Type>
+				<Presented>Luis Avalos</Presented>
+				<CDate>09/30/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>Cutting</Title>
+				<Type>S</Type>
+				<Presented>Luis Avalos</Presented>
+				<CDate>09/30/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP122 B Rev 14</Title>
+				<Type>O</Type>
+				<Presented>Luis Avalos</Presented>
+				<CDate>09/30/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>FP122.3 Rev 1</Title>
+				<Type>O</Type>
+				<Presented>Luis Avalos</Presented>
+				<CDate>09/30/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>
+			<Skill>
+				<Title>Termination</Title>
+				<Type>S</Type>
+				<Presented>Luis Avalos</Presented>
+				<CDate>09/30/13</CDate>
+				<Verified>DC</Verified>
+			</Skill>			
+		</Skills>
+	</Employee>
+</Record>			

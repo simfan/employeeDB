@@ -4,10 +4,15 @@ input[type="text"]
 	border-bottom: 1px solid black;
 }
 
+input[type="submit"]
+{
+	margin: 5px;
+}
+
 li
 {
 	position: relative;
-	top: 10px;
+	top: 2px;
 }
 
 .bold
